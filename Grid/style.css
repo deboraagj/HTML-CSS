@@ -1,0 +1,84 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.geral{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 600px;
+}
+
+/* LADO ESQUERDO */
+
+.left{
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img-perfil{
+    background-color: burlywood;
+}
+
+.contato{
+    background-color: chartreuse
+}
+
+.formacao{
+    background-color: tomato;
+}
+
+/* LADO DIREITO */
+
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sobre{
+    background-color: blue;
+}
+
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ano{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(23, 23, 24);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.data{
+    background-color: cadetblue;
+}
+
+.texto1{
+    background-color: rgb(238, 135, 9);
+}
+
+.texto2{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: rgb(84, 226, 226);
+    align-items: center;
+}
+
+.descricao{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+
+.competencia{
+    background-color: chocolate;
+}
+
